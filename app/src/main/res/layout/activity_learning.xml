@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    android:backgroundTintMode="src_in"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#FFFFFF"
+        android:text="What is balanced equation ?"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="top"
+        android:text="\tA balanced chemical equation is an equation where the number of atoms of each type in the reaction is the same on both reactants and product sides"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/screenshot_2024_04_15_214824" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="How to Balance ? \n \t\tLets Start With An Example :" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/screenshot_2024_04_15_213348" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Lets count the number of atoms on both sides :" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-black"
+            android:text="\t\t Reactants : \n\n\t\t\t H = 2 \n \t\t\t O = 2" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="249dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
+            android:text="\t\t Products : \n\n\t\t\t H = 2 \n \t\t\t O = 1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="As we can see the number of Oxygen are not equal on both sides !" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="The way to balance an equation is to multiple the number of atoms in the equation so they became balanced on both sides, You must check the equation after each time you multiply"
+        android:textColor="#DA1A1A" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/w" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-black"
+            android:text="\t\t Reactants : \n\n\t\t\t H = 4 \n \t\t\t O = 2" />
+
+        <TextView
+            android:id="@+id/textVie10"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
+            android:text="\t\t Reactants : \n\n\t\t\t H = 4 \n \t\t\t O = 2" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnGoToPract"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Go To Practice" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

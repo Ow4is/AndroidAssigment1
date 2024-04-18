@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E7FCFD">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Quiz Time"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-black"
+                android:text="1_ __ KOH + __ H₃PO₄ → __ K₃PO₄ + __ H₂O"
+                android:textColor="#E91E63"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp">
+
+                <RadioButton
+                    android:id="@+id/C"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3 KOH + H₃PO₄ → K₃PO₄ + 3 H₂O"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3 KOH + 2 H₃PO₄ → 3 K₃PO₄ + 3 H₂O"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:text="KOH + H₃PO₄ → K₃PO₄ + 6 H₂O"
+                    android:textSize="16sp" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-black"
+                android:text="2_ __ KNO₃ + __ H₂CO₃ → __ K₂CO₃ + __ HNO₃"
+                android:textColor="#E91E63"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="KNO₃ + H₂CO₃ → K₂CO₃ + HNO₃"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2 KNO₃ + 2 H₂CO₃ → K₂CO₃ + 2 HNO₃"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/C2"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:text="2 KNO₃ + H₂CO₃ → K₂CO₃ + 2 HNO₃"
+                    android:textSize="16sp" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-black"
+                android:text="3_ __ AgI + __ Na₂S → __ Ag₂S + __ NaI"
+                android:textColor="#E91E63"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2 AgI + 2 Na₂S → Ag₂S + 2 NaI"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/C3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2 AgI + Na₂S → Ag₂S + 2 NaI"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton32"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:text="AgI + Na₂S → Ag₂S + 2 NaI"
+                    android:textSize="16sp" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-black"
+                android:text="4. __ Ba₃N₂ + __ H₂O → __ Ba(OH)₂ + __ NH₃"
+                android:textColor="#E91E63"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp">
+
+                <RadioButton
+                    android:id="@+id/C4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ba₃N₂ + 6 H₂O → 3 Ba(OH)₂ + 2 NH₃"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton200"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2 Ba₃N₂ + 3 H₂O → 2 Ba(OH)₂ + 2 NH₃"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton99"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:text="Ba₃N₂ + H₂O → Ba(OH)₂ + NH₃"
+                    android:textSize="16sp" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-black"
+                android:text="5. __ FeS + __ O₂ → __ Fe₂O₃ + __ SO₂"
+                android:textColor="#E91E63"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton77"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FeS + O₂ → Fe₂O₃ + SO₂"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/C5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4 FeS + 7 O₂ → 2 Fe₂O₃ + 4 SO₂"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton322"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:text="3 FeS + 2 O₂ → 3 Fe₂O₃ + 2 SO₂"
+                    android:textSize="16sp" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnFinish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Finish Attempt" />
+
+            <TextView
+                android:id="@+id/txtRes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="100dp"
+                android:textSize="50sp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>
